@@ -11,7 +11,7 @@ A web site where user can get a random fact about a number, date, year or even a
 
 ## Demo
 
-![Demo-Gif](public/assets/gif.mov)
+![Demo-Gif](public/assets/gif.mp4)
 
 ## Features
 
