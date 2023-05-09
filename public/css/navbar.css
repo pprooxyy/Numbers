@@ -1,0 +1,118 @@
+.navbar-container {
+  height: 10vh;
+  width: 100%;
+  background-color: #dff6ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.navbar-ul {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+  margin-left: 150px;
+}
+
+.navbar-logo {
+  height: 100%;
+  width: 100%;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.logo-link {
+  height: 10vh;
+  width: 110px;
+}
+
+.navbar-profile-container {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar-profile-container a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbar-profile-container a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.2s ease-in-out;
+}
+
+.navbar-profile-container a:hover::before {
+  width: 100%;
+}
+
+.navbar-profile-container-user {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.navbar-profile-container-user a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.profile-image-container {
+  min-width: 65px;
+  min-height: 65px;
+  max-width: 65px;
+  max-height: 65px;
+  border-radius: 50%;
+  margin-right: 80px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar-ul li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.2s ease-in-out;
+}
+
+.navbar-ul li a:hover::before {
+  width: 100%;
+}
